@@ -255,3 +255,52 @@ hr{
     background: linear-gradient(to right, red 0%, red 70%, transparent 100%);
     margin: 0; 
 }
+.services-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  padding-top: 30px;
+  
+}
+.services-section {
+  padding: 20px;
+  text-align: center;
+}
+.service-item {
+width: 50%;
+height: 30vh;
+background-image: url(./images/working1.jpg);
+background-size: cover;
+padding: 20px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+border-radius: 4px;
+position: relative;
+}
+.service-number {
+  position: absolute;
+  top: 170px;
+  right: 150px;
+  background: #f00;
+  color: #fff;
+  padding: 15px;
+  width: 20px; 
+  height: 20px; 
+  border-radius: 50%;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.service-text {
+  background-color: #fff;
+  color: #000;
+  position: absolute;
+  top:10px;
+  text-transform:uppercase;
+  padding: 2px 0px 15px 2px;
+  border-radius: 4px; 
+  font-size: 0.75rem;
+  margin-left: 20px; 
+  width: 140px;
+}
